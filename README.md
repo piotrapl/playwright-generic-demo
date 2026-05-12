@@ -2,6 +2,20 @@
 This repository contains a minimal, clean, and fully type‑safe API testing framework built with Playwright, TypeScript, and generics.
 It is designed to demonstrate professional API automation practices while keeping the codebase lightweight and easy to extend.
 
+## Podsumowanie (in Polish)
+Ten projekt pokazuje, jak tworzyć czyste, typowane testy API w Playwright + TypeScript.
+Zawiera generyczny klient API, walidację odpowiedzi, modele danych i testy CRUD.
+Kod jest minimalistyczny, ale zgodny z dobrymi praktykami automatyzacji.
+Może służyć jako baza pod większy framework lub jako projekt do portfolio.
+Struktura jest prosta, czytelna i gotowa do integracji z CI/CD.
+Projekt nie zawiera testów UI — to w 100% API‑only.
+Idealny przykład wykorzystania TypeScript generics w praktyce.
+
+## Summary (in English)
+This project demonstrates a clean and type‑safe approach to API testing using Playwright and TypeScript.
+It is intentionally minimal, focusing on generics, reusable utilities, and a simple architecture that can scale into a larger framework.
+Perfect for CI pipelines, portfolio use, or as a foundation for more advanced API automation.
+
 ## The project includes:
 
 a generic API client
@@ -74,17 +88,3 @@ test('GET /products/1', async ({ api }) => {
 Code
 npm install
 npx playwright test
-
-## Summary (English)
-This project demonstrates a clean and type‑safe approach to API testing using Playwright and TypeScript.
-It is intentionally minimal, focusing on generics, reusable utilities, and a simple architecture that can scale into a larger framework.
-Perfect for CI pipelines, portfolio use, or as a foundation for more advanced API automation.
-
-## Podsumowanie (PL)
-Ten projekt pokazuje, jak tworzyć czyste, typowane testy API w Playwright + TypeScript.
-Zawiera generyczny klient API, walidację odpowiedzi, modele danych i testy CRUD.
-Kod jest minimalistyczny, ale zgodny z dobrymi praktykami automatyzacji.
-Może służyć jako baza pod większy framework lub jako projekt do portfolio.
-Struktura jest prosta, czytelna i gotowa do integracji z CI/CD.
-Projekt nie zawiera testów UI — to w 100% API‑only.
-Idealny przykład wykorzystania TypeScript generics w praktyce.
