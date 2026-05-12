@@ -1,0 +1,24 @@
+{
+  "name": "playwright-generic-api-demo",
+  "version": "1.0.0",
+  "description": "Minimal API-only Playwright testing project using TypeScript and generics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "api testing",
+    "typescript",
+    "automation",
+    "generics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
+  }
+}
